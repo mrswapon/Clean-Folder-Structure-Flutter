@@ -128,7 +128,7 @@ class _BannerCarouselState extends State<BannerCarousel> {
               decoration: BoxDecoration(
                 shape: BoxShape.circle,
                 color: activeIndex == index
-                    ? AppColors.primary
+                    ? AppColors.primaryColor
                     : const Color(0xFFF8CCAD),
               ),
             ),

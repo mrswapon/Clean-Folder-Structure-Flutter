@@ -64,7 +64,7 @@ class ProductImageWithBadge extends StatelessWidget {
             child: Container(
               padding: EdgeInsets.symmetric(horizontal: 8.w, vertical: 8.h),
               decoration: BoxDecoration(
-                color: AppColors.primary,
+                color: AppColors.primaryColor,
                 borderRadius: BorderRadius.only(
                   topRight: Radius.circular(8.r),
                   bottomRight: Radius.circular(8.r),

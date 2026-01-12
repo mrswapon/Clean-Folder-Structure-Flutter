@@ -6,11 +6,12 @@ class AppColors {
   AppColors._();
 
   // Primary colors
-  static const Color primary = Color(0xFFED7014);
+  static const Color primaryColor = Color(0xFFED7014);
   static const Color cardColor = Color(0xFFF7BD93);
   static const Color primaryLight = Color(0xFFfdf1e8);
   static const Color borderColor = Color(0xFFED7014);
   static const Color grayColor = Color(0xFFD9D9D9);
+  static const Color fillColor = Color(0xFFD9D9D9);
 
   // Green accents (from design)
   static const Color greenAccent = Color(0xFF00E676);
@@ -24,7 +25,7 @@ class AppColors {
   // Text colors
   static const Color textPrimary = Color(0xFF000000);
   static const Color textSecondary = Color(0xFF302B2B);
-  static const Color textHint = Color(0xFF909090);
+  static const Color textHintColor = Color(0xFF909090);
   static const Color buttonTextColor = Color(0xFFFFFFFF);
 
   // Custom text colors from design

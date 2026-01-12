@@ -18,7 +18,7 @@ class StarRatingWidget extends StatelessWidget {
 
     // Add full stars
     for (int i = 0; i < fullStars && i < 5; i++) {
-      stars.add(Icon(Icons.star, color: AppColors.primary, size: 15.sp));
+      stars.add(Icon(Icons.star, color: AppColors.primaryColor, size: 15.sp));
     }
 
     // Add half star if needed
@@ -29,7 +29,7 @@ class StarRatingWidget extends StatelessWidget {
             Icon(Icons.star, color: Colors.grey[300], size: 15.sp),
             ClipRect(
               clipper: HalfClipper(),
-              child: Icon(Icons.star, color: AppColors.primary, size: 15.sp),
+              child: Icon(Icons.star, color: AppColors.primaryColor, size: 15.sp),
             ),
           ],
         ),

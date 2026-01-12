@@ -30,9 +30,9 @@ class SectionHeader extends StatelessWidget {
                 'View All',
                 style: TextStyle(
                   fontSize: 14.sp,
-                  color: AppColors.primary,
+                  color: AppColors.primaryColor,
                   decoration: TextDecoration.underline,
-                  decorationColor: AppColors.primary,
+                  decorationColor: AppColors.primaryColor,
                 ),
               ),
             ),

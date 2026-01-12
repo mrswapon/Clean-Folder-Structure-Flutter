@@ -101,14 +101,14 @@ class FoodCard extends StatelessWidget {
 
                     Row(
                       children: [
-                        Icon(Icons.star, color: AppColors.primary, size: 16.sp),
+                        Icon(Icons.star, color: AppColors.primaryColor, size: 16.sp),
                         SizedBox(width: 4.w),
                         Text(
                           product.rating?.toStringAsFixed(1) ?? '0.0',
                           style: TextStyle(
                             fontWeight: FontWeight.bold,
                             fontSize: 16.sp,
-                            color: AppColors.primary,
+                            color: AppColors.primaryColor,
                           ),
                         ),
                       ],
