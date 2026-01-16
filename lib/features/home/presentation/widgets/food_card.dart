@@ -2,7 +2,6 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:shimmer/shimmer.dart';
-import '../../../../core/constants/app_strings.dart';
 import '../../../../core/utils/app_colors.dart';
 import '../../data/models/product_model.dart';
 
@@ -66,7 +65,7 @@ class FoodCard extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  product.safeName.isEmpty ? AppStrings.unknownProduct : product.safeName,
+                  product.safeName.isEmpty ? 'Unknown Product' : product.safeName,
                   style: TextStyle(
                     fontSize: 16.sp,
                     fontWeight: FontWeight.w700,
@@ -77,7 +76,7 @@ class FoodCard extends StatelessWidget {
                 ),
                 SizedBox(height: 4.h),
                 Text(
-                  product.safeRestaurantName.isEmpty ? AppStrings.unknownRestaurant : product.safeRestaurantName,
+                  product.safeRestaurantName.isEmpty ? 'Unknown Restaurant' : product.safeRestaurantName,
                   style: TextStyle(
                     fontSize: 12.sp,
                     fontWeight: FontWeight.w700,
